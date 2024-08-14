@@ -3,13 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35208.52
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkdayCalculator.Service", ".\src\WorkdayCalculator.Service\WorkdayCalculator.Service.csproj", "{63663063-9FCC-489F-A297-BAE69BEC1846}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkdayCalculator.Service", "src\WorkdayCalculator.Service\WorkdayCalculator.Service.csproj", "{63663063-9FCC-489F-A297-BAE69BEC1846}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkdayCalculator.UnitTests", ".\tests\WorkdayCalculator.UnitTests\WorkdayCalculator.UnitTests.csproj", "{EF46C650-8FF2-420E-A909-C253F69654D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkdayCalculator.UnitTests", "tests\WorkdayCalculator.UnitTests\WorkdayCalculator.UnitTests.csproj", "{EF46C650-8FF2-420E-A909-C253F69654D2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AA947900-879A-41AC-95A5-BD5D36E3898D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{FB2B1E87-6085-48B2-9B92-C56B06959E3F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{64316DF5-C757-4D76-AD27-31AAB9E40E30}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
